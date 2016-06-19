@@ -1,12 +1,14 @@
 import matplotlib.pyplot as plt
 import scipy
 import numpy
+import matplotlib.image as mpimg
 
 
 # because the image we loaded is RGB image, 
 # http://en.wikipedia.org/wiki/Grayscale#Converting_color_to_grayscale
 
-bug = scipy.misc.imread('stinkbug1.png')
+#bug = scipy.misc.imread('stinkbug1.png')
+bug = mpimg.imread('stinkbug.png')
 
 # if you want to inspect the shape of the loaded image
 # uncomment following line

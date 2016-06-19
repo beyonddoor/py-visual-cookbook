@@ -6,5 +6,7 @@ bugfile = 'stinkbug.png'
 
 # read image
 bug = mpimg.imread(bugfile)
+print bug
 
 imgplot = plt.imshow(bug)
+plt.show()
